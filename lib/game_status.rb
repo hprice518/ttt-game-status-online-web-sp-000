@@ -43,5 +43,20 @@ end
 end
   
 
+def full?(board)
+  board.all? {|position| position == "X" || position == "O"}
+end
 
+
+def draw?
+  
+def over?
+
+end
+
+def winner
+  
+end
+  
+end
   
