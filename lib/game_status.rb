@@ -34,7 +34,11 @@ def won?(board)
     false
   end
 end
+
+  board.any? {|position| position == "X" || position == "O"} 
   
+  #board.all? {|position| position == "X" || position == "O"}
+
 end
   
 
