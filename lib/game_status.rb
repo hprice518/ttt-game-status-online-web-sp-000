@@ -43,17 +43,19 @@ end
   
 
 def full?(board)
-  board.all? {|position| position == "X" || position == "O"}
+  #board.all? {|position| position == "X" || position == "O"}
 end
 
 
 def draw?(board)
-  board.
+  
   
 def over?(board)
-  if won?(board) == true || draw(board) == true || full(board) == true
-  #board.any? {|board|  == "X" ||  == "O"}
-end
+  if won?(board) == true || draw?(board) = true || full?(board) = true
+  #if won?(board) || draw?(board) || full?(board)
+   #return true 
+  end
+end 
 
 def winner
   
