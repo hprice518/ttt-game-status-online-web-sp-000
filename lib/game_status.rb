@@ -43,7 +43,7 @@ end
   
 
 def full?(board)
-  #board.all? {|position| position == "X" || position == "O"}
+  board.all? {|position| position == "X" || position == "O"}
 end
 
 
@@ -53,6 +53,8 @@ def draw?(board)
 def over?(board)
   if won?(board) || draw?(board) || full?(board)
    return true 
+ else
+   false
   end
 end 
 
