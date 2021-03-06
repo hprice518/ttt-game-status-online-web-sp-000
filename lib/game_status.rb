@@ -47,10 +47,12 @@ def full?(board)
 end
 
 
-def draw?
+def draw?(board)
+  board.
   
-def over?
-
+def over?(board)
+  if won?(board) == true || draw(board) == true || full(board) == true
+  #board.any? {|board|  == "X" ||  == "O"}
 end
 
 def winner
